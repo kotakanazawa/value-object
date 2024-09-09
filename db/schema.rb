@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_09_09_103851) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_09_104424) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email_address"
-    t.string "address"
+    t.text "address"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
