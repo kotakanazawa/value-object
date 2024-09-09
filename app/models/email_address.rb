@@ -12,7 +12,7 @@ class EmailAddress
   end
 
   def domain
-    address.split('@').last
+    address.split("@").last
   end
 
   def ==(other)
